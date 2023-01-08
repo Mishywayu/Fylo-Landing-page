@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    padding: 40px 30px;
+}
+
+nav .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav ul {
+    margin-left: 640px;
+    padding: 20px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.first {
+    height: 70vh;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.first .left {
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    padding: 160px 50px;
+}
+
+.left h2 {
+    margin-left: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.left p {
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.left input {
+    width: 320px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.left button {
+    width: 160px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0504aa;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.left button:hover {
+    background-color: #448ee4;
+}
+
+.first .right {
+    width: 50%;
+    height: 100%;
+}
+
+.illustration {
+    width: 90%;
+    height: 100%;
+    background-image: url('/images/illustration-1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/** seconf section **/
+#second-section{
+    height: 80vh;
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.second{
+    display: flex;
+    height: 100%;
+}
+.left1{
+    width: 60%;
+    height: 100%;
+    padding: 80px 80px;
+    background-color: red;
+}
+
+.left1 h2{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 34px;
+}
+.p{
+    width: 70%;
+    margin-top: 20px;
+}
+.p p{
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+.p p:nth-child(2){
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+a{
+    color: green;
+}
+.card{
+    width: 46%;
+    height: 50%;
+    background: white;
+}
+.review{
+    display: flex
+}
+.review img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.review p{
+    
+}
+.right1{
+    width: 40%;
+    height: 100%;
+    /* background-color: beige; */
+}
