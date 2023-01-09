@@ -113,7 +113,6 @@ nav ul li {
     width: 60%;
     height: 100%;
     padding: 80px 80px;
-    background-color: red;
 }
 
 .left1 h2{
@@ -140,11 +139,15 @@ a{
 }
 .card{
     width: 46%;
-    height: 50%;
+    height: 55%;
+    padding-left: 20px;
+    margin-top: 30px;
     background: white;
+    box-shadow: 4px 5px 18px #888888;
 }
 .review{
-    display: flex
+    display: flex;
+    margin-top: 15px;
 }
 .review img{
     width: 20%;
@@ -152,10 +155,19 @@ a{
     border-radius: 50%;
 }
 .review p{
-    
+    padding: 10px;
 }
 .right1{
     width: 40%;
     height: 100%;
-    /* background-color: beige; */
 }
+.illustration2{
+    width: 80%;
+    height: 100%;
+    background-image: url(/images/illustration-2.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: contain;
+}
+
+/** third **/
